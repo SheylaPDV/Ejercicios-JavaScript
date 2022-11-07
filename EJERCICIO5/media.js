@@ -8,7 +8,7 @@ const media = (list) => {
     sum = sum + val;
     i++;
   }
-  const media = sum / i;
+  const media = Math.round(sum / i);
   console.log(media);
 };
 media([8, 9, 12]);
