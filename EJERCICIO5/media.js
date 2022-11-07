@@ -2,13 +2,11 @@
 
 const media = (list) => {
   let sum = 0;
-  let i = 0;
 
   for (var val of list) {
     sum = sum + val;
-    i++;
   }
-  const media = Math.round(sum / i);
+  const media = Math.round(sum / list.length);
   console.log(media);
 };
-media([8, 9, 12]);
+media([8, 9, 12, 6, 4, 99]);

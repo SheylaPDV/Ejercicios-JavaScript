@@ -29,4 +29,4 @@ const arbol = (altura) => {
 
   console.log(arbol);
 };
-arbol(6);
+arbol(5);
