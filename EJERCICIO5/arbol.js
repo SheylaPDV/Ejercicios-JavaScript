@@ -15,7 +15,7 @@ const arbol = (altura) => {
   let arbol = "";
 
   for (fila = 0; fila < altura; fila++) {
-    for (k = -1; k <= altura + 2; k++) {
+    for (k = 0; k <= altura + 1; k++) {
       asterisco = asterisco + "_";
 
       if (k >= altura / 2 && k === altura / 2) {
@@ -29,4 +29,4 @@ const arbol = (altura) => {
 
   console.log(arbol);
 };
-arbol(4);
+arbol(6);
