@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+}
+button {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.comida {
+  color: aliceblue;
+  padding: 2px 15px 20px;
+  margin-bottom: 10px;
+  width: 47%;
+  box-sizing: border-box;
+}
+
+.fondo {
+  display: flex;
+  justify-content: space-evenly;
+}

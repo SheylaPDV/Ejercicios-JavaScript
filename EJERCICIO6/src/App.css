@@ -1,0 +1,10 @@
+.caja-central {
+  display: flex;
+  /* esta propiedad hace que quede espacio entre componentes */
+  justify-content: space-evenly;
+  /* Esta propiedad hace que si no cabe en una fila,que utilice las filas que necesite */
+  flex-wrap: wrap;
+}
+h2 {
+  margin-left: 30px;
+}
