@@ -1,0 +1,8 @@
+div {
+  border: solid;
+  width: 500px;
+  height: 500px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(60deg, #b16ec4, #5f97b9);
+}
